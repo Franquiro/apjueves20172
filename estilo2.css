@@ -1,0 +1,58 @@
+*{font-family: Ubuntu;}
+body{background-color:rgb(51,51,51);}
+.seccion{
+    background-color:#FFFFFF;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    float:right;
+    width:72%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    padding:2%
+}
+.navegacion{
+    float:left;
+    width:21%;
+    margin-left:1%;
+    margin-right:1%;
+}
+.navegacion img{width:100%; border-top-right-radius:50px; border-bottom-left-radius: 50px;}
+.navegacion li{
+    list-style-type: none;
+    background-color:cadetblue;
+    margin-bottom:10px;
+    padding:3%;
+    text-align: center;
+    border-radius: 12px;
+}
+.navegacion ul{padding:0;}
+li a{text-decoration: none; color:#FFF;}
+.navegacion li:hover{
+    background-color:#AAA;
+    text-transform: uppercase;
+}
+.seccion h1{
+    color:cadetblue;
+    border-bottom: 3px cadetblue solid;
+    border-radius: 3px;
+}
+#seccion_experiencia h2{
+    color:firebrick;
+    text-decoration: underline;
+}
+.seccion p{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: justify;
+}
+#seccion_datos_personales h2{
+    font-size:2em;
+    color:dodgerblue;
+    padding-left:2%;
+}
+#seccion_datos_personales li{
+    margin-bottom: 10px;
+    list-style-type:none;
+    border-bottom:2px solid;
+    border-bottom-color:burlywood
+}
